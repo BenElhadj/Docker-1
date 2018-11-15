@@ -1,0 +1,12 @@
+# MAJ des sources et des paquets
+apt-get update
+apt-get upgrade -y
+
+# Install les outils pour compiler avec GCC
+apt-get install -y build-essential
+
+# Install Git
+apt-get install -y git-core
+
+# Rappel il faut a l'avance lancer le containeur debian avec cette commande:
+# docker run -it debian

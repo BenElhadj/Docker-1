@@ -1,0 +1,2 @@
+# a executer sur le manager du swarm
+docker service ls

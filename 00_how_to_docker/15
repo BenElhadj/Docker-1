@@ -1,0 +1,2 @@
+# Les variables sont deja crees depuis le container MYSQL
+docker run --name roach-warden --link spawning-pool:db -p 8081:80 -d phpmyadmin/phpmyadmin

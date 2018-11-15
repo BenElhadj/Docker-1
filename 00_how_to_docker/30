@@ -1,0 +1,2 @@
+# a executer sur le manager
+docker service scale -d marines=20

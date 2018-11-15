@@ -1,0 +1,2 @@
+docker service create --name orbital-command --hostname my-rabbit --network overmind -e RABBITMQ_DEFAULT_USER=bhamdi -e RABBITMQ_DEFAULT_PASS=admin -p 4369:4369 -p 5671:5671 -p 5672:5672 -p 15672:15672 -d rabbitmq:management
+# pour teste il faut aller a 192.168.99.101:15672

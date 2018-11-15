@@ -1,0 +1,2 @@
+# a executer sur le manager
+docker service rm $(docker service ls --format "{{.Name}}")
